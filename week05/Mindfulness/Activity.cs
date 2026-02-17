@@ -60,13 +60,7 @@ public class Activity
             Thread.Sleep(1000);
             Console.Write("\b");
         }
-      //string[] spinner = { "|", "/", "-", "\\" };
-      //for (int i = 0; i < seconds * 4; i++)
-     // {
-         // Console.Write(spinner[i % spinner.Length]);
-         // Thread.Sleep(250);
-        //  Console.Write("\b");
-     // }
+     
     }
     public void ShowCountDown(int seconds)
     {
